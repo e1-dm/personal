@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.4'
-group :development, :test do 
+group :development, :test do
   gem 'sqlite3'
 end
 # Use SCSS for stylesheets
@@ -22,7 +22,7 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
-
+gem 'bootstrap-sass', :git => 'https://github.com/twbs/bootstrap-sass.git'
 gem "less-rails"
 gem "therubyracer"
 
